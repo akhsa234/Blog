@@ -1,2 +1,2 @@
 # Blog
-https://en.wikipedia.org/wiki/Marketplace
+https://en.wikipedia.org/wiki/Blog
