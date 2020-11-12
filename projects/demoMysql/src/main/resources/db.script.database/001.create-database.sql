@@ -1,0 +1,2 @@
+CREATE USER blogmapsa IDENTIFIED BY "blogmapsa";
+GRANT CONNECT, RESOURCE, DBA TO blogmapsa;

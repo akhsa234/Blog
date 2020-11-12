@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.17">
+    <root id="1">
+      <ServerVersion>11.2.0.1.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="BLOGMAPSA">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="CUSTOMER">
+      <ObjectId>91</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <IntrospectionTimestamp>2020-11-12.10:18:21</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="10" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <CreatedTimestamp>2010-03-30.14:37:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-09.02:09:49</ModifiedTimestamp>
+    </schema>
+    <schema id="30" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="41" parent="9" name="COMMENT_SEQ">
+      <ObjectId>74690</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:17:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <SequenceIdentity>10000+10..9999999999999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+      <CacheSize>1000</CacheSize>
+    </sequence>
+    <sequence id="42" parent="9" name="PAPER_SEQ">
+      <ObjectId>74682</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:35</ModifiedTimestamp>
+      <SequenceIdentity>10000+10..99999999999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+      <CacheSize>1000</CacheSize>
+    </sequence>
+    <sequence id="43" parent="9" name="PERSON_SEQ">
+      <ObjectId>74677</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <SequenceIdentity>10000+5..9999999999999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+      <CacheSize>1000</CacheSize>
+    </sequence>
+    <sequence id="44" parent="9" name="TAGPAPER_SEQ">
+      <ObjectId>74697</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:18:21</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <SequenceIdentity>10000+5..9999999999999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+      <CacheSize>1000</CacheSize>
+    </sequence>
+    <sequence id="45" parent="9" name="TAG_SEQ">
+      <ObjectId>74685</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:45</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:45</ModifiedTimestamp>
+      <SequenceIdentity>10000+5..9999999999999999999</SequenceIdentity>
+      <Cycled>1</Cycled>
+      <CacheSize>1000</CacheSize>
+    </sequence>
+    <table id="46" parent="9" name="COMMENTS">
+      <ObjectId>74687</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:17:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="9" name="PAPER">
+      <ObjectId>74678</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="9" name="PERSON">
+      <ObjectId>74673</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="9" name="TAG">
+      <ObjectId>74683</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:45</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="9" name="TAGPAPER">
+      <ObjectId>74695</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:18:21</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="51" parent="46" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="46" name="CODE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="46" name="BODY">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(1000 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="46" name="NAME">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="46" name="CREATOR">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="46" name="PERSON_ID">
+      <Position>6</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="46" name="PAPER_ID">
+      <Position>7</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="46" name="CURRENT_DATE">
+      <Position>8</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="46" name="LIKES">
+      <Position>9</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="60" parent="46" name="DESCRIPTION">
+      <Position>10</Position>
+      <DataType>NVARCHAR2(400 char)|0s</DataType>
+    </column>
+    <column id="61" parent="46" name="LOCK_VERSION">
+      <Position>11</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="62" parent="46" name="COMMENT_PK_ID">
+      <ObjectId>74688</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:17:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="63" parent="46" name="COMMENT_UN_CODE">
+      <ObjectId>74689</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:17:03</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CODE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="46" name="COMMENT_PK_ID">
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>COMMENT_PK_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="65" parent="46" name="COMMENT_UN_CODE">
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <ColNames>CODE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>COMMENT_UN_CODE</UnderlyingIndexName>
+    </key>
+    <foreign-key id="66" parent="46" name="COMMENT_FK_PERSON_ID">
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <ColNames>PERSON_ID</ColNames>
+      <RefTableName>PERSON</RefTableName>
+      <RefKeyName>PERSON_PK_ID</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="67" parent="46" name="COMMENT_FK_PAPER_ID">
+      <ModifiedTimestamp>2020-11-12.10:17:03</ModifiedTimestamp>
+      <ColNames>PAPER_ID</ColNames>
+      <RefTableName>PAPER</RefTableName>
+      <RefKeyName>PAPER_PK_ID</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="68" parent="47" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="47" name="BODY">
+      <Position>2</Position>
+      <DataType>NCLOB|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="47" name="TITLE">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="47" name="CURRENT_DATE">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="47" name="RELEASE_DATE">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="47" name="MODIFY_DATE">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="47" name="TAGS">
+      <Position>7</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="47" name="LIKES">
+      <Position>8</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="76" parent="47" name="RATE">
+      <Position>9</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="77" parent="47" name="DESCRIPTION">
+      <Position>10</Position>
+      <DataType>NVARCHAR2(400 char)|0s</DataType>
+    </column>
+    <column id="78" parent="47" name="LOCK_VERSION">
+      <Position>11</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="79" parent="47" name="PAPER_PK_ID">
+      <ObjectId>74681</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:35</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="80" parent="47" name="PAPER_PK_ID">
+      <ModifiedTimestamp>2020-11-12.10:16:35</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PAPER_PK_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="81" parent="48" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="48" name="NATIONALCODE">
+      <Position>2</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="48" name="FIRST_NAME">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="48" name="LAST_NAME">
+      <Position>4</Position>
+      <DataType>NVARCHAR2(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="48" name="EMAIL">
+      <Position>5</Position>
+      <DataType>VARCHAR2(70 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="48" name="COUNTRY">
+      <Position>6</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="48" name="GENDER">
+      <Position>7</Position>
+      <DataType>NVARCHAR2(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="48" name="PHONE">
+      <Position>8</Position>
+      <DataType>NUMBER(15 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="48" name="DESCRIPTION">
+      <Position>9</Position>
+      <DataType>NVARCHAR2(400 char)|0s</DataType>
+    </column>
+    <column id="90" parent="48" name="LOCK_VERSION">
+      <Position>10</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="91" parent="48" name="PERSON_PK_ID">
+      <ObjectId>74674</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="92" parent="48" name="PERSON_UN_CODE">
+      <ObjectId>74675</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>NATIONALCODE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="93" parent="48" name="PERSON_UN_EMAIL">
+      <ObjectId>74676</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMAIL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="94" parent="48" name="PERSON_PK_ID">
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PERSON_PK_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="95" parent="48" name="PERSON_UN_CODE">
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <ColNames>NATIONALCODE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PERSON_UN_CODE</UnderlyingIndexName>
+    </key>
+    <key id="96" parent="48" name="PERSON_UN_EMAIL">
+      <ModifiedTimestamp>2020-11-12.10:16:17</ModifiedTimestamp>
+      <ColNames>EMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PERSON_UN_EMAIL</UnderlyingIndexName>
+    </key>
+    <column id="97" parent="49" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="49" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="49" name="DESCRIPTION">
+      <Position>3</Position>
+      <DataType>NVARCHAR2(400 char)|0s</DataType>
+    </column>
+    <column id="100" parent="49" name="LOCK_VERSION">
+      <Position>4</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+    </column>
+    <index id="101" parent="49" name="TAG_PK_ID">
+      <ObjectId>74684</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:16:45</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:16:45</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="49" name="TAG_PK_ID">
+      <ModifiedTimestamp>2020-11-12.10:16:45</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TAG_PK_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="103" parent="50" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="50" name="TAG_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="50" name="PAPAR_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="106" parent="50" name="TAGPAPER_PK_ID">
+      <ObjectId>74696</ObjectId>
+      <CreatedTimestamp>2020-11-12.10:18:21</CreatedTimestamp>
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="50" name="TAGPAPER_PK_ID">
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TAGPAPER_PK_ID</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="108" parent="50" name="PAPER_FK_TAG_ID">
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <ColNames>TAG_ID</ColNames>
+      <RefTableName>TAG</RefTableName>
+      <RefKeyName>TAG_PK_ID</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="109" parent="50" name="TAG_FK_PAPAR_ID">
+      <ModifiedTimestamp>2020-11-12.10:18:21</ModifiedTimestamp>
+      <ColNames>PAPAR_ID</ColNames>
+      <RefTableName>PAPER</RefTableName>
+      <RefKeyName>PAPER_PK_ID</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>
